@@ -168,7 +168,7 @@ function startRecording() {
     console.log('Recorded Blobs: ', recordedBlobs);
   };
   mediaRecorder.ondataavailable = handleDataAvailable;
-  mediaRecorder.start(1000);
+  mediaRecorder.start();
   console.log('MediaRecorder started', mediaRecorder);
 }
 
